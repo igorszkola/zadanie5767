@@ -1,0 +1,24 @@
+/*
+<html>
+<head>
+<title>styl importowany</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- importowany -->
+ <style>
+ @import url("pedz_z5_1.css ");
+ </style>
+</head>
+<body bgcolor="silver">
+ <p> PĘDZIWILK - programować</p>
+ </body>
+</html>
+*/
+
+
+
+p 
+{
+color: olive;
+font-size: 82px;
+}
+ 

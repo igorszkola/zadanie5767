@@ -1,0 +1,35 @@
+/*
+<html>
+ <head>
+ 
+ <link href="pedz_z6.css" rel="stylesheet" type="text/css">
+ </head>
+ 
+ <body>
+ <p>:) - uśmiech</p>
+ ;C - duży smutek
+ <p>:P - pokazane języka</p>
+ :O - zdziwienie
+ <p>;/ - sceptyczm</p>
+ :| - brak emocji
+ 
+ </body>
+
+
+
+</html>
+*/
+
+
+
+
+body
+{
+     color: rgb(50%,35%,80%);
+	 font-size:30px;
+}
+p
+{
+     color: #689A5A;
+     font-size:20px;	 
+}

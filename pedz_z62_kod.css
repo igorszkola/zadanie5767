@@ -1,0 +1,23 @@
+body
+{
+	background: silver;
+}
+p#info
+{
+	color:red;
+}
+p
+{
+	font-size:5mm;
+	color: rgb(254,127,6);
+}
+p:lang(pl)
+{
+	font-size:6mm;
+	color: rgb(000,000,255);
+}
+p:lang(en)
+{
+	font-size:10mm;
+	color: rgb(48,213,200);
+}

@@ -1,0 +1,47 @@
+div
+{
+	color: red;
+}
+A
+{
+font-size: 18pt;
+text-decoration: none;
+}
+A:link
+{
+color: blue;
+}
+A:visited
+{
+color: green;
+}
+A:hover
+{
+color: red;
+text-decoration: underline;
+}
+
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="pedz_z59_kod.css">
+</head>
+<body>
+<a href="https://www.kuratorium.gda.pl/">Kuratorium gdańskie</a><br>
+<a href="https://zse.edu.gdansk.pl/pl">Strona ZSE</a>
+<div>
+<p>Igor Pędziwilk 1P 03-24-2023r.</p>
+</div>
+</body>
+<!--
+text-decoration: none; - usuwamy wszystkie dekoracje tekstu 
+text-decoration: underline; - podkreślenie tekstu 
+IGOR PĘDZIWILK 
+-->
+</html>
+
+/*
+text-decoration: none; - usuwamy wszystkie dekoracje tekstu 
+text-decoration: underline; - podkreślenie tekstu 
+IGOR PĘDZIWILK 
+*/
+

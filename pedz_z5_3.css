@@ -1,0 +1,19 @@
+/*
+<html>
+<head>
+<title>styl wewnętrzny</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- wewnetrzny -->
+ <style>
+ p
+ {
+ color: teal;
+ font-size: 72px;
+ }
+</style>
+</head>
+<body bgcolor="silver">
+ <p> Pędziwilk -> Pisać kod</p>
+ </body>
+</html>
+*/

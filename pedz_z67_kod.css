@@ -1,0 +1,31 @@
+p:first-letter
+{
+	font-size: 114pt;
+	color: orange;
+}
+p
+{
+	font-size:19pt;
+	color:turquoise;
+}
+
+h1
+{
+	color:#32179F;
+	font-size:20pt;
+}
+h1:first-letter
+{
+	color:silver;
+	font-size:100px;
+}
+p#linia:first-line
+{
+  color:red;
+  font-size:15pt;
+}
+p#linia
+{
+	font-size:19pt;
+	color:turquoise;
+}

@@ -1,0 +1,64 @@
+div#blok1_pedziwilk
+{
+	width: 622px;
+	background-color: green;
+}
+div#blok2_pedziwilk
+{
+	width: 622px;
+	background-color: green;
+}
+div#blok3_pedziwilk
+{
+	width: 622px;
+	background-color: green;
+}
+div#blok1_pedziwilk:hover
+{
+	background-color: red;
+		font-size: 18mm;
+}
+div#blok2_pedziwilk:hover
+{
+	background-color: yellow;
+		font-size: 18mm;
+}
+div#blok3_pedziwilk:hover
+{
+	background-color: yellow;
+		font-size: 18mm;
+}
+
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="pedz_z60_kod.css">
+</head>
+<body>
+<p style="color:red;font-size:10mm"> Mam numer w dzienniku 22 to kolory: czerwony, zółty, zółty dla hover</p>
+ <p style="color:blue;font-size:10mm">Wiekość_liter=(18+reszta_z_dzielenia(liczba_liter_nazwiska przez 4)[mm])</p>
+ <p style="color:green;font-size:10mm">mam na nazwisko Pędziwilk=8 liter czyli wielkość liter D=(18+8%4)=18mm </p>
+ <p style="color:green;font-size:10mm">wpisz Twoje obliczenia </p>
+ 
+<div id="blok1_pedziwilk">
+BLOK 1 IGOR PĘDZIWILK
+</div>
+
+<div id="blok2_pedziwilk">
+BLOK 2 IGOR PĘDZIWILK
+</div>
+
+<div id="blok3_pedziwilk">
+BLOK 3 IGOR PĘDZIWILK
+</div>
+
+
+</body>
+<!--
+hover; - Określa, jak zmieni się znacznik po najechaniu na niego
+Igor Pędziwilk
+-->
+</html>
+/*
+hover; - Określa, jak zmieni się znacznik po najechaniu na niego
+Igor Pędziwilk
+*/

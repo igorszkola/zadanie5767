@@ -1,0 +1,93 @@
+<html>
+ <head>
+ </head>
+ 
+ <body>
+ <ol>
+     <h1><li>Wymień rodzaje selektorów.</h1>
+	
+	 <ol>
+	    <li>Selektor prosty
+		<ul>
+		<li>Styl zdefiniowany dla przykładowego selektora p będzie odnosił się wyłącznie do akapitów zamkniętych w znacznikach <&nbspp><&nbsp/p> i nie będzie wpływał na pozostałe elementy strony WWW. 
+		      
+		        <li> <textarea style="width:400px; height:100px;">
+ p
+   {
+     color:red;
+     font-size:14pt;
+   }
+                 </textarea>
+		</ul>
+		
+		<li>Selektor uniwersalny
+		<ul> 
+		<li>Selektor taki pozwala ustalić określone atrybuty dla wszystkich elementów strony, a więc dla różnych selektorów typu.
+		
+		<li> 
+		<textarea style="width:400px; height:40px;">
+* { cecha: wartość }
+		 </textarea> 
+		</ul>
+		
+		<li>Selektor potomka
+		<ul>
+		<li>Przy użyciu selektora potomka można formatować elementy, które sa zawarte wewnątrz innych znaczników, czyli leżą niżej w hierarchii drzewa dokumentu.
+		     
+	    <li>
+		<textarea style="width:400px; height:40px;">
+przodek1 przodek2 ... potomek { cecha: wartość }
+		     </textarea>
+		</ul>
+		
+		<li> Selektor dziecka
+		<ul> 
+		<li>Selektor dziecka służy do definiowania elementów, które znajdują się o jeden rząd niżej w hierarchii drzewa dokumentów.
+		
+		<li>
+		<textarea style="width:400px; height:120px;">
+p > span
+ {
+  font-style:italic;
+  text-decoration:underline;
+  color:green;
+ }
+		</textarea>
+		
+		     </ul>
+		
+		<li>Selektor braci
+		<ul> 
+		<li>Zastosowanie selekora rodzeństwa można przypisać styl elementowi bezpośrednio sąsiadującemu z innymi. By warunek został spełniony, oba selektory muszą mieć wspólnego „rodzica”.
+		
+		<li>
+		<textarea style="width:400px; height:120px;">
+p + span
+ {
+  font-style:italic;
+  text-decoration:underline;
+  color:green;
+ }
+		</textarea>
+		</ul>
+		
+		<li>Selektor atrybutu
+		<ul> 
+		<li>Selektorem może być dowolny znacznik, np. ( p – akapit ), ( h1 – nagłówek ), (td - komórka tabeli).
+Atrybut oznacza konkretny parametr nadany znacznikowi z poziomu języka (X)HTML.
+Natomiast "cecha" oraz "wartość"
+		
+		<li>
+		<textarea style="width:400px; height:40px;">
+selektor[atrybut] { cecha: wartość }
+		</textarea>
+		
+		     </ul>
+		
+	 </ol>
+ <a href="C:\Users\uczen\Desktop\IP - Zad 5/start.html">Wróć</a>
+
+</ol>
+ </body>
+
+</html>
